@@ -34,12 +34,9 @@ a {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    height: 110px;
+    height: 130px;
 }
 
-.calendar_title {
-    height: 25px;
-}
 .day {
     width: 14%;
     border: 0.5px solid #ce062b;
@@ -50,7 +47,6 @@ a {
 }
 
 .title {
-    width: 13%;
     background-color: #ce062b;
     color: white;
     height: 25px;
