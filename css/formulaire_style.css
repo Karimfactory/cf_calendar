@@ -1,0 +1,42 @@
+body{ 
+
+	background-image:url(../img/background-for-website.jpg)
+
+ }
+
+.button{
+
+	color: white;
+	background-color: #CE062B;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+#form{
+
+	border: 4px #CE062B groove;
+    border-radius:15px;
+	box-shadow: 2px 2px 2px black;
+	background-color: white;
+
+	
+	margin:auto;
+	margin-left: 250px;
+	margin-right:250px;
+	margin-top: 16px;
+	text-align: center;
+
+	justify-content: center;
+	align-items: center;
+
+}
+
+h1{ 
+
+	text-align: center;
+	text-decoration:underline;
+	color:#CE062B;
+
+
+ }
+

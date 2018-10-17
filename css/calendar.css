@@ -1,0 +1,79 @@
+.calendar {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+.add {
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+    background-color: #ce062b;
+    border-radius: 50%;
+    color: white;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    opacity: 0.6;
+    box-shadow: 2px 2px 2px black;
+    font-size: 20px;
+}
+
+.add:hover {
+    opacity: 1;
+}
+
+.calendar_grid, .calendar_title
+{
+    padding: 0px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 110px;
+}
+
+.calendar_title {
+    height: 25px;
+}
+.day {
+    width: 14%;
+    border: 0.5px solid #ce062b;
+}
+
+.day:last-child, .day:nth-last-child(2){
+    background-color: #f5f5f5;
+}
+
+.title {
+    width: 14%;
+    background-color: #ce062b;
+    color: white;
+    height: 25px;
+}   
+
+.number {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+    opacity: 0.6;
+}
+
+.current {
+    border-radius: 50%;
+    background-color: #ce062b;
+    color: white;
+    padding: 1px;
+    opacity: 1;
+}
+
+.event {
+    background-color: #cbe1b6;
+    margin: 5px;
+    border-radius: 5px;
+    padding-left: 5px;
+    font-size: 12px;
+    color: #3f8a30;
+}
+
+.event_description {
+    font-weight: bold;
+}
