@@ -31,13 +31,17 @@ a {
     background-color: #f5f5f5;
 }
 
-.title {
+.title, .title_mobile {
     background-color: #ce062b;
     color: white;
     height: 25px;
     text-align: center;
     font-weight: bold;
 }   
+
+.title_mobile{
+    display: none;
+}
 
 .number {
     font-size: 20px;
@@ -84,12 +88,69 @@ a {
     font-size: 20px;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1250px){
     .add {
         top:0px;
     }
-    .title {
-        text-overflow: clip;
-        text-transform: uppercase;
+
+}
+
+@media screen and (max-width: 800px){
+
+    .day {
+        width: 13%;
     }
+
+    .calendar_grid, .calendar_title
+{
+    height: 100px;
+}
+
+    ul {
+        display: none;
+    }
+
+    .title {
+        display: none;
+    }
+
+    .title_mobile {
+        display: block;
+    }
+
+
+    .number {
+        font-size: 16px;
+
+    }
+
+    .current {
+        border-radius: 0%;
+        background-color: #ce062b;
+        color: white;
+        padding: 0;
+        opacity: 1;
+    }
+
+    .responsive {
+        content: "";
+        background-color: #cbe1b6;
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+        margin-left: auto;
+        margin-right:auto;
+        opacity: 0.9;
+    }
+}
+
+ul {
+    margin: 0px;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    padding: 5px;
+    
 }
