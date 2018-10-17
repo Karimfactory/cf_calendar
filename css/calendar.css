@@ -8,21 +8,6 @@ a {
     position: relative;
     font-family: 'Roboto', sans-serif;
 }
-.add {
-    position: absolute;
-    bottom: 20px;
-    right: 40px;
-    background-color: #ce062b;
-    border-radius: 50%;
-    color: white;
-    width: 45px;
-    height: 45px;
-    line-height: 45px;
-    text-align: center;
-    opacity: 0.6;
-    box-shadow: 2px 2px 2px black;
-    font-size: 20px;
-}
 
 .add:hover {
     opacity: 1;
@@ -50,7 +35,8 @@ a {
     background-color: #ce062b;
     color: white;
     height: 25px;
-    padding-left: 3px;
+    text-align: center;
+    font-weight: bold;
 }   
 
 .number {
@@ -79,4 +65,31 @@ a {
 
 .event_description {
     font-weight: bold;
+}
+
+
+.add {
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+    background-color: #ce062b;
+    border-radius: 50%;
+    color: white;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    opacity: 0.6;
+    box-shadow: 2px 2px 2px black;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1000px){
+    .add {
+        top:0px;
+    }
+    .title {
+        text-overflow: clip;
+        text-transform: uppercase;
+    }
 }
