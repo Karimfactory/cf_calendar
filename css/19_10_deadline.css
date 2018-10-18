@@ -14,6 +14,7 @@ body {font-family: 'Open Sans', sans-serif;}
 .jour{
 	color: #CE062B;
 	font-size: 20px;
+	padding-bottom: 5px;
 }
 
 .grid{
@@ -23,11 +24,17 @@ body {font-family: 'Open Sans', sans-serif;}
 }
 
 .day_event{
-	padding-top: 20px;
-	padding-bottom: 20px;
-	padding-left: 20px;
-	padding-right: 100%;
+	padding: 20px;
+	margin-top: 10px;
 	border-bottom: solid #F5F5F5;
+	width: 100%;
+	font-size: 20px;
+	background-color: #EFE0F6;
+    margin-left: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    color: #5e5c6a;
+    font-weight: bold;
 }
 
 .heure{
@@ -36,16 +43,15 @@ body {font-family: 'Open Sans', sans-serif;}
 }
 
 .event{
+	width: 100%;
 	font-size: 20px;
 	font-weight: bold;
 	padding: 20px;
-	padding-right: 1000px;
 	background-color: #cbe1b6;
     margin-left: 5px;
     border-radius: 5px;
     font-size: 12px;
     color: #3f8a30;
-    /* agrandir background vert*/
 }
 
 .no_event{
