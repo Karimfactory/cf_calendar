@@ -4,6 +4,7 @@ a {
 }
 
 .calendar {
+    z-index: 0;
     position: relative;
     font-family: 'Roboto', sans-serif;
 }
@@ -11,7 +12,7 @@ a {
 .add:hover {
     opacity: 1;
     transform: scale(1.3);
-}
+} 
 
 .calendar_grid, .calendar_title
 {
