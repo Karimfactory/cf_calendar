@@ -9,11 +9,13 @@ body {font-family: 'Open Sans', sans-serif;}
 .day{
 	font-size: 22px;
 	font-weight: bold;
+	padding-left: 5px;
 }
 
 .jour{
 	color: #CE062B;
 	font-size: 20px;
+	padding-left: 5px;
 	padding-bottom: 5px;
 }
 
@@ -28,13 +30,6 @@ body {font-family: 'Open Sans', sans-serif;}
 	margin-top: 10px;
 	border-bottom: solid #F5F5F5;
 	width: 100%;
-	font-size: 20px;
-	background-color: #EFE0F6;
-    margin-left: 5px;
-    border-radius: 5px;
-    font-size: 12px;
-    color: #5e5c6a;
-    font-weight: bold;
 }
 
 .heure{
