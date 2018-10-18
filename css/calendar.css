@@ -3,9 +3,6 @@ a {
     text-decoration: none;
 }
 
-
-
-
 .calendar {
     position: relative;
     font-family: 'Roboto', sans-serif;
@@ -75,6 +72,10 @@ a {
     border-radius: 5px;
     padding-left: 5px;
     font-size: 12px;
+    color: #3f8a30;
+}
+
+.event a {
     color: #3f8a30;
 }
 
