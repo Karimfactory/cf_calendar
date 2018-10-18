@@ -1,16 +1,17 @@
-body{ 
 
-	background-image:url(../img/background-for-website.jpg)
 
- }
-
-.button{
+.envoyer{
 
 	color: white;
 	background-color: #CE062B;
 	margin-bottom: 20px;
 	margin-top: 20px;
+	font-size: 10px;
+	border-radius: 20px;
+	padding: 15px;
+
 }
+
 
 #form{
 
@@ -28,8 +29,10 @@ body{
 
 	justify-content: center;
 	align-items: center;
+	min-width: 150px;
 
 }
+
 
 h1{ 
 
@@ -39,4 +42,42 @@ h1{
 
 
  }
+
+
+ textarea {
+      width:600px;
+      height: 200px;
+
+}
+
+
+@media screen and (max-width: 1130px){
+    textarea {
+      width:100px;
+      height: 100px;
+}
+
+	.info{
+
+		max-width: 400px; 
+	}
+
+
+
+	.responsive{
+
+		min-width: 
+	}
+
+	h1{ 
+		display: none;
+
+	 }
+
+	 #form{
+
+	 	margin-top: 200px;
+	 	margin-left: 135px;
+	 }
+
 
