@@ -59,11 +59,19 @@
 						<label for="Date">Date:</label>
 				  		<input class= "date" type="date" name="Date" />
 			  		</div>
-
 					<div>
-						<label for="monHeure">Nom de l'évenement:</label>
-						<input type="text" name="Nom" id="monHeure" value="" placeholder="taper votre Nom ici" />
+						<label for="begin_time">Heure de début</label>
+						<input type="time" name="begin_time">
 					</div>
+					<div>
+							<label for="end_time">Heure de fin</label>
+							<input type="time" name="end_time">
+						</div>
+					<div>
+						<label for="event">Nom de l'évenement:</label>
+						<input type="text" name="Nom" id="event" value="" placeholder="Mon événement" />
+					</div>
+
 
 					<div>
 						<label for="monLieu">Lieu:</label>
@@ -75,7 +83,7 @@
 						<textarea  name="Description" id="maDescription" width="300" heigth="100" value="" maxlength="200"></textarea>
 					</div> 
 						<label for="Add"></label>
-						<input class="envoyer " type="submit" name="ajouter l'évenement" id="Add" value="ajouter l'évenement" />
+						<input class="envoyer " type="submit" id="Add" value="Ajouter l'évenement" />
 					</div>
 				</main>
 			</form>
