@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
-
 a
 {
   color:#fff;
   text-decoration:none;
+
 }
 
 
@@ -14,7 +13,9 @@ a
   height:50px;
   position:absolute;
   top: 0px;
-z-index: 1;
+  z-index: 1;
+
+
 }
 
 .menu .title
@@ -59,7 +60,7 @@ z-index: 1;
   -webkit-appearance:none;
   color:inherit;
   cursor:pointer;
-  font-family:'Material Icons';
+  font-family: 'Roboto', sans-serif;
   font-size:30px;
   line-height:50px;
   
