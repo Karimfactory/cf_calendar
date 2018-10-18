@@ -32,8 +32,19 @@ body {font-family: 'Open Sans', sans-serif;}
 
 .heure{
 	padding: 20px;
+	border-right: solid #F5F5F5;
 }
 
 .event{
 	padding: 20px;
+	background-color: #cbe1b6;
+    margin: 5px;
+    border-radius: 5px;
+    padding-left: 5px;
+    font-size: 12px;
+    color: #3f8a30;
+}
+
+.no_event{
+	display: none;
 }
