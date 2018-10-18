@@ -25,16 +25,17 @@ body {
 
 .navigation {
     text-align: center;
+    padding-left: 250px;
 }
 
 .adress {
     margin-right: 15px;
 }
 
-.foot{
+.foot{ 
     width:100%;
-    background-color: #282a2b;
-    color: white;
+    background-color: #F5F5F5;
+    color: #ce062B;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     position: fixed;
@@ -42,12 +43,36 @@ body {
     bottom: 0px;
 
 }
+.link{
+    color: blue;
+}
 
 * {
     margin: 0px;
 }
 
-a {
-    color: white;
-    text-decoration: none;
-}
+
+
+@media screen and (max-width: 1000px){ 
+
+    .adress{
+
+        display: none;
+    }
+
+
+    .navigation{
+        display: none;
+    }
+
+
+
+
+
+
+
+
+`
+
+
+ }
