@@ -1,0 +1,13 @@
+body {font-family: 'Open Sans', sans-serif;}
+
+h1{
+	color: #CE062B;
+	font-size: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	border-bottom: solid #F5F5F5;
+}
+ul {
+    list-style: disc url(puce.gif) inside;
+   }

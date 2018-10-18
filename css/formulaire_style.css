@@ -1,4 +1,6 @@
 
+body {font-family: 'Open Sans', sans-serif;}
+
 
 .envoyer{
 
@@ -15,9 +17,9 @@
 
 #form{
 
-	border: 4px #CE062B groove;
+	border: 5px #F5F5F5 groove;
     border-radius:15px;
-	box-shadow: 2px 2px 2px black;
+	
 	background-color: white;
 
 	
@@ -55,7 +57,7 @@ h1{
     textarea {
       width:100px;
       height: 100px;
-}
+	}
 
 	.info{
 
