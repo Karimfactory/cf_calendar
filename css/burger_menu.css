@@ -81,5 +81,5 @@ a
 
 .menu .burger:checked + nav
 {
-  height:calc(100vh - 50px);
+  height:calc(90vh);
 }
